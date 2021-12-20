@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      margin:0;
+    }
+    .wrapper{
+      background-color: gray;
+      width: 400px;
+      height: 400px;
+    }
+
+    .drop1{
+        position: relative;
+        animation: mydrob1 infinite;
+        animation-duration: 4s;
+    }
+    .drop2{
+      position: relative;
+      animation: mydrob2 infinite;
+      animation-duration: 4s;
+    }
+    .drop3{
+      position: relative;
+      animation: mydrob3 infinite;
+      animation-duration: 4s;
+    }
+    
+    @keyframes mydrob1 {
+      0%   {left:150px; top:-25px;}
+      25%  {left:150px; top:150px;}
+      50%  {left:150px; top:150px;}
+      75%  {left:150px; top:150px;}
+      100% {left:150px; top:150px;}
+    }
+    @keyframes mydrob2 {
+      0%   {left:150px; top:-25px;}
+      25%  {left:150px; top:-25px;}
+      50%  {left:150px; top:150px;}
+      75%  {left:150px; top:150px;}
+      100% {left:150px; top:150px;}
+    }
+    @keyframes mydrob3 {
+      0%   {left:150px; top:-25px;}
+      25%  {left:150px; top:-25px;}
+      50%  {left:150px; top:-25px;}
+      75%  {left:150px; top:150px;}
+      100% {left:150px; top:150px;}
+    }
+  
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <span class="drop1" >😤</span>
+    <span class="drop2" >🤡</span>
+    <span class="drop3" >🤗</span>
+  </div>
+</body>
+</html>
